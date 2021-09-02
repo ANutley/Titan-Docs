@@ -1,0 +1,32 @@
+# Project information
+site_name: Titan™ Wiki
+site_url: https://titan.anutley.me/docs
+site_author: ANutley
+site_description: >-
+  The documentation for Titan.
+  A multipurpose Discord bot that can be configured to suit your needs.
+nav:
+  - Home: index.md
+  - Setup: setup.md
+  - Permissions: permissions.md
+  - Roles: roles.md
+  - Commands: commands.md
+  - Discord: 'https://discord.gg/4ueXW4fwrR'
+
+repo_url: https://github.com/ANutley/Titan-Documentation
+repo_name: Titan Documentation
+edit_uri: edit/master/docs/
+
+theme:
+  name: material
+  favicon: images/logo.png
+  logo: images/logo.png
+  palette:
+    - scheme: white
+      primary: black
+      accent: red
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/4ueXW4fwrR
+      name: Titan's Support Server
