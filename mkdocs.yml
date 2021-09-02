@@ -1,6 +1,6 @@
 # Project information
 site_name: Titan™ Wiki
-site_url: https://titan.anutley.me/docs
+site_url: https://titan.anutley.me
 site_author: ANutley
 site_description: >-
   The documentation for Titan.
@@ -13,8 +13,8 @@ nav:
   - Commands: commands.md
   - Discord: 'https://discord.gg/4ueXW4fwrR'
 
-repo_url: https://github.com/ANutley/Titan-Documentation
-repo_name: Titan Documentation
+repo_url: https://github.com/ANutley/Titan-Docs
+repo_name: Titan Docs
 edit_uri: edit/master/docs/
 
 theme:
