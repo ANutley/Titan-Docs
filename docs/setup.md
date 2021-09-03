@@ -1,6 +1,6 @@
 #Setup
 ##Inviting the Bot
-Firstly, [click here]() to invite Titan with adminstrator permissions or [click here]() to customise Titan's permissions. 
+Firstly, [click here](https://discord.com/api/oauth2/authorize?client_id=853225073023909918&permissions=8&scope=bot%20applications.commands) to invite Titan with administrator permissions or [click here](https://discord.com/api/oauth2/authorize?client_id=853225073023909918&permissions=261993005047&scope=bot%20applications.commands) to customise Titan's permissions. 
 
 Note: Titan must have the permissions listed [here](permissions.md) to function correctly.
 
