@@ -1,26 +1,26 @@
-#Commands
+# Commands
 
+`<>` are required arguments, whereas `[]` are optional arguments
 
-##Fun Commands
+## Fun Commands
 
-###Avatar Command
+### Avatar Command
 
 * /avatar [user]
 * Finds the avatar of a user
     * [user] - The user you want to find the avatar of
 
-###Coin Command
+### Coin Command
 
 * /coin
 * Flips a coin
 
-###Dice Command
+### Dice Command
 
 * /dice
 * Rolls a dice
 
-
-##Moderation Commands
+## Moderation Commands
 
 ### Ban Command
 
@@ -35,7 +35,7 @@
 * /kick <user\>
 * Kicks a user
     * <user\> - The user you want to kick
-  
+
 ### Lockdown Command
 
 * /lockdown <subcommand\>
@@ -44,7 +44,7 @@
 
     * disable
         * Disables lockdown
-    
+
     * status
         * Shows the current status of lockdown
 
@@ -53,26 +53,28 @@
 * /setnick <user\> [nickname]
 * Changes the nickname of the specified user
     * <user\> The user to change the nickname of
-    * [nickname] The nickname that the current nickname should be changed to (run without this option to clear the existing nickname)
+    * [nickname] The nickname that the current nickname should be changed to (run without this option to clear the
+      existing nickname)
 
 ### Slowmode Command
 
 * /slowmode [channel] [hours] [minutes] [seconds]
 * Changes the slowmode of a channel (Run without any time related option to disable slowmode)
-    * [channel] - The channel to change the slowmode of a channel. Uses the current channel if this option is not specified
+    * [channel] - The channel to change the slowmode of a channel. Uses the current channel if this option is not
+      specified
     * [hours] - The time in hours to set the slowmode rate to
     * [minutes] - The time in minutes to set the slowmode rate to
     * [seconds] - The time in seconds to set the slowmode rate to
 
 ### Warn Command
 
-* /warn <subcommandgroup\> 
+* /warn <subcommandgroup\>
     * add <user\> <reason\>
         * Adds a warning to a user
         * <user\> - The user to add the warning to
         * <reason\> - The reason for the warning
     * remove <warning id\>
-        * Removes a warning from a user by its warning id (This can be found via the /warn list <user> command) 
+        * Removes a warning from a user by its warning id (This can be found via the /warn list <user> command)
         * <warning id\> The id of the warning to remove
     * list <user\>
         * Lists the warnings of the specified user
@@ -81,10 +83,12 @@
         * Clears warning for the specified user
         * The user whose warning you want to clear
 
-##Settings Commands
-###Settings
-* /settings <settings group\>
-    * guild 
+## Settings Commands
+
+### Settings
+
+* /settings
+    * guild
         * modrole <role\>
             * Changes the guild's modrole
             * <role\> The role you want to change it to
@@ -129,10 +133,14 @@
                 * %discriminator - The discriminator of the user
                 * %guild_name% - The name of the guild
                 * End the message with `-showavatar`, to show add the users' avatar to the join message
+        * role <role\>
+            * The role to give to users when they join (only works for `/settings welcome`)
+    
 
+## Utility Commands
 
-##Utility Commands
-###Announce Command
+### Announce Command
+
 * /announce <channel\> [title] [content] [colour] [thumbnail] [footer]
     * Sends an announcement into a channel of your choice
         * <channel\> - The channel to send the announcement for
@@ -141,25 +149,31 @@
         * [colour] - The colour of the announcement
         * [thumbnail] - The thumbnail URL of the footer
         * [footer] - The footer the announcement
-      
-###Guild Info Command
+
+### Guild Info Command
+
 * /guildinfo
     * Sends information about the current guild
-  
-###Help Command
+
+### Help Command
+
 * /help [command]
-    * If ran without an option it will show information about the help command. If an option is provided it will show information about the specified command
+    * If ran without an option it will show information about the help command. If an option is provided it will show
+      information about the specified command
         * [command] - The command to query
-      
-###Ping Command
+
+### Ping Command
+
 * /ping
     * Gets the bots current gateway ping
 
-###Stats Command
+### Stats Command
+
 * /stats
     * Gets stats about the bot
 
-###Tag Command
+### Tag Command
+
 * /tag <subcommand>
     * create <trigger\> <title\> [content] [content] [colour] [thumbnail]
         * Creates a tag with the specified arguments
@@ -176,20 +190,22 @@
         * Lists all tags in the guild
     * remove <trigger\>
         * Removes a tag by its trigger
-  * edit <trigger\> [title] [content] [content] [colour] [thumbnail]
-      * Edits a tag with the specified arguments
-      * <trigger\> - The trigger of the tag to edit
-      * [title] - The title of the tag
-      * [content] - The content of the tag
-      * [colour] - The colour of the tag
-      * [thumbnail] - The thumbnail URL of the footer
-      * [footer] - The footer the tag
+    * edit <trigger\> [title] [content] [content] [colour] [thumbnail]
+        * Edits a tag with the specified arguments
+        * <trigger\> - The trigger of the tag to edit
+        * [title] - The title of the tag
+        * [content] - The content of the tag
+        * [colour] - The colour of the tag
+        * [thumbnail] - The thumbnail URL of the footer
+        * [footer] - The footer the tag
 
-###User Info Command
+### User Info Command
+
 * /userinfo <user\>
     * Sends information about yourself of a specified user
         * <user\> - The user you want to find information about
 
-###Wiki Command
+### Wiki Command
+
 * /wiki
-  * Sends a link to Titan's documentation (here!)
+    * Sends a link to Titan's documentation (here!)
