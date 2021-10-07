@@ -175,30 +175,45 @@
 ### Tag Command
 
 * /tag <subcommand>
-    * create <trigger\> <title\> [content] [content] [colour] [thumbnail]
-        * Creates a tag with the specified arguments
-        * <trigger\> - The trigger of the tag to create
-        * [title] - The title of the tag
-        * [content] - The content of the tag
-        * [colour] - The colour of the tag
-        * [thumbnail] - The thumbnail URL of the footer
-        * [footer] - The footer the tag
+    * embed
+        * create <trigger\> <title\> [content] [content] [colour] [thumbnail]
+            * Creates a tag with the specified arguments
+                * <trigger\> - The trigger of the tag to create
+                * <title\> - The title of the tag
+                * [content] - The content of the tag
+                * [colour] - The colour of the tag
+                * [thumbnail] - The thumbnail URL of the footer
+                * [footer] - The footer the tag
+        * edit <trigger\> [title] [content] [content] [colour] [thumbnail]
+            * Edits a tag with the specified arguments
+                * <trigger\> - The trigger of the tag to edit
+                * [title] - The new title of the tag
+                * [content] - The new content of the tag
+                * [colour] - The new colour of the tag
+                * [thumbnail] - The new thumbnail URL of the footer
+                * [footer] - The new footer of the tag
+    * text
+        * create <trigger\> <text\>
+            * Creates a tag with the specified arguments
+                * <trigger\> - The trigger of the tag
+                * <text\> - The text response of the tag
+        * edit <trigger\> <text\>
+            * Edits a specific tag
+                * <trigger\> - The trigger of the tag to edit
+                * <text\> - The new text response of the tag
     * get <trigger\>
         * The tag to get
         * <trigger\> - The trigger of the tag to get
-    * list
-        * Lists all tags in the guild
     * remove <trigger\>
         * Removes a tag by its trigger
-    * edit <trigger\> [title] [content] [content] [colour] [thumbnail]
-        * Edits a tag with the specified arguments
-        * <trigger\> - The trigger of the tag to edit
-        * [title] - The title of the tag
-        * [content] - The content of the tag
-        * [colour] - The colour of the tag
-        * [thumbnail] - The thumbnail URL of the footer
-        * [footer] - The footer the tag
-
+    * clear
+        * Clears **all** of the guild's tags (This action is irreversible!) 
+    * list
+        * Lists all tags in the guild
+    * setrole
+        * Sets the role that manages tags 
+    
+    
 ### User Info Command
 
 * /userinfo <user\>
