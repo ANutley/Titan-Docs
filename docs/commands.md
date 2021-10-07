@@ -32,9 +32,10 @@
 
 ### Kick Command
 
-* /kick <user\>
+* /kick <user\> <reason\>
 * Kicks a user
     * <user\> - The user you want to kick
+    * <reason\> - The reason for kicking the user
 
 ### Lockdown Command
 
@@ -216,9 +217,9 @@
     
 ### User Info Command
 
-* /userinfo <user\>
+* /userinfo [user]
     * Sends information about yourself of a specified user
-        * <user\> - The user you want to find information about
+        * [user] - The user you want to find information about
 
 ### Wiki Command
 
