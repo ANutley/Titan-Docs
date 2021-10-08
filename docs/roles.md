@@ -18,7 +18,7 @@ This goes without saying, but only give this role to someone you trust
 
 ##Moderator Role
 
-The Moderator Role can access all of Titan's command (apart from /settings and /lockdown).
+The Moderator Role can access all of Titan's commands (apart from /settings and /lockdown).
 
 They can:
 
