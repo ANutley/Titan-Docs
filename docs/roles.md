@@ -16,7 +16,7 @@ They can:
 * Change the guild's welcome / leave settings
 * Change the guild's ping protection settings
 
-This goes without saying, but only give this role to someone you trust
+This goes without saying, but only give this role to someone you trust!
 
 ---
 
