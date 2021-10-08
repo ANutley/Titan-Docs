@@ -1,0 +1,1262 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The documentation for Titan. A multipurpose Discord bot that can be configured to suit your needs.">
+      
+      
+      
+        <meta name="author" content="ANutley">
+      
+      
+        <link rel="canonical" href="https://titan.anutley.me/commands/">
+      
+      <link rel="icon" href="../images/logo.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.3.2">
+    
+    
+      
+        <title>Commands - Titan™ Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.24c991ad.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="white" data-md-color-primary="black" data-md-color-accent="red">
+  
+    
+    <script>function __prefix(e){return new URL("..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+      <script>var palette=__get("__palette");if(null!==palette&&"object"==typeof palette.color)for(var key in palette.color)document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#commands" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Titan™ Wiki" class="md-header__button md-logo" aria-label="Titan™ Wiki" data-md-component="logo">
+      
+  <img src="../images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Titan™ Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Commands
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="white" data-md-color-primary="black" data-md-color-accent="red"  aria-hidden="true"  type="radio" name="__palette" id="__palette_1">
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/ANutley/Titan-Docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Titan Docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Titan™ Wiki" class="md-nav__button md-logo" aria-label="Titan™ Wiki" data-md-component="logo">
+      
+  <img src="../images/logo.png" alt="logo">
+
+    </a>
+    Titan™ Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/ANutley/Titan-Docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Titan Docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/" class="md-nav__link">
+        Setup
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../permissions/" class="md-nav__link">
+        Permissions
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roles/" class="md-nav__link">
+        Roles
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Commands
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Commands
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fun-commands" class="md-nav__link">
+    Fun Commands
+  </a>
+  
+    <nav class="md-nav" aria-label="Fun Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avatar-command" class="md-nav__link">
+    Avatar Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coin-command" class="md-nav__link">
+    Coin Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dice-command" class="md-nav__link">
+    Dice Command
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moderation-commands" class="md-nav__link">
+    Moderation Commands
+  </a>
+  
+    <nav class="md-nav" aria-label="Moderation Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-command" class="md-nav__link">
+    Ban Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kick-command" class="md-nav__link">
+    Kick Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockdown-command" class="md-nav__link">
+    Lockdown Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setnick-command" class="md-nav__link">
+    Setnick Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slowmode-command" class="md-nav__link">
+    Slowmode Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#warn-command" class="md-nav__link">
+    Warn Command
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings-commands" class="md-nav__link">
+    Settings Commands
+  </a>
+  
+    <nav class="md-nav" aria-label="Settings Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    Settings
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utility-commands" class="md-nav__link">
+    Utility Commands
+  </a>
+  
+    <nav class="md-nav" aria-label="Utility Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#announce-command" class="md-nav__link">
+    Announce Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-command" class="md-nav__link">
+    GitHub Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guild-info-command" class="md-nav__link">
+    Guild Info Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#help-command" class="md-nav__link">
+    Help Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invite-command" class="md-nav__link">
+    Invite Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ping-command" class="md-nav__link">
+    Ping Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stats-command" class="md-nav__link">
+    Stats Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tag-command" class="md-nav__link">
+    Tag Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-info-command" class="md-nav__link">
+    User Info Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wiki-command" class="md-nav__link">
+    Wiki Command
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://discord.gg/4ueXW4fwrR" class="md-nav__link">
+        Discord
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fun-commands" class="md-nav__link">
+    Fun Commands
+  </a>
+  
+    <nav class="md-nav" aria-label="Fun Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avatar-command" class="md-nav__link">
+    Avatar Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#coin-command" class="md-nav__link">
+    Coin Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dice-command" class="md-nav__link">
+    Dice Command
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#moderation-commands" class="md-nav__link">
+    Moderation Commands
+  </a>
+  
+    <nav class="md-nav" aria-label="Moderation Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ban-command" class="md-nav__link">
+    Ban Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kick-command" class="md-nav__link">
+    Kick Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lockdown-command" class="md-nav__link">
+    Lockdown Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setnick-command" class="md-nav__link">
+    Setnick Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#slowmode-command" class="md-nav__link">
+    Slowmode Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#warn-command" class="md-nav__link">
+    Warn Command
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settings-commands" class="md-nav__link">
+    Settings Commands
+  </a>
+  
+    <nav class="md-nav" aria-label="Settings Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#settings" class="md-nav__link">
+    Settings
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#utility-commands" class="md-nav__link">
+    Utility Commands
+  </a>
+  
+    <nav class="md-nav" aria-label="Utility Commands">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#announce-command" class="md-nav__link">
+    Announce Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#github-command" class="md-nav__link">
+    GitHub Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guild-info-command" class="md-nav__link">
+    Guild Info Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#help-command" class="md-nav__link">
+    Help Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#invite-command" class="md-nav__link">
+    Invite Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ping-command" class="md-nav__link">
+    Ping Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stats-command" class="md-nav__link">
+    Stats Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tag-command" class="md-nav__link">
+    Tag Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-info-command" class="md-nav__link">
+    User Info Command
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wiki-command" class="md-nav__link">
+    Wiki Command
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/ANutley/Titan-Docs/edit/master/docs/commands.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="commands">Commands</h1>
+<p><code>&lt;&gt;</code> are required arguments, whereas <code>[]</code> are optional arguments</p>
+<hr />
+<h2 id="fun-commands">Fun Commands</h2>
+<h3 id="avatar-command">Avatar Command</h3>
+<ul>
+<li>/avatar <code>[user]</code><ul>
+<li>Finds the avatar of a user<ul>
+<li><code>[user]</code> - The user you want to find the avatar of</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="coin-command">Coin Command</h3>
+<ul>
+<li>/coin<ul>
+<li>Flips a coin</li>
+</ul>
+</li>
+</ul>
+<h3 id="dice-command">Dice Command</h3>
+<ul>
+<li>/dice<ul>
+<li>Rolls a dice</li>
+</ul>
+</li>
+</ul>
+<h2 id="moderation-commands">Moderation Commands</h2>
+<h3 id="ban-command">Ban Command</h3>
+<ul>
+<li>/ban <code>&lt;user&gt;</code> <code>&lt;reason&gt;</code> <code>[messages]</code><ul>
+<li>Bans a user<ul>
+<li><code>&lt;user&gt;</code> - The user you want to ban</li>
+<li><code>&lt;reason&gt;</code> - The reason for banning the user</li>
+<li><code>[messages]</code> - The amount of days of message history to delete (Max 7)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="kick-command">Kick Command</h3>
+<ul>
+<li>/kick <code>&lt;user&gt;</code> <code>&lt;reason&gt;</code><ul>
+<li>Kicks a user<ul>
+<li><code>&lt;user&gt;</code> - The user you want to kick</li>
+<li><code>&lt;reason&gt;</code> - The reason for kicking the user</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="lockdown-command">Lockdown Command</h3>
+<ul>
+<li>
+<p>/lockdown</p>
+<ul>
+<li>
+<p>enable</p>
+<ul>
+<li>Enables lockdown</li>
+</ul>
+</li>
+<li>
+<p>disable</p>
+<ul>
+<li>Disables lockdown</li>
+</ul>
+</li>
+<li>
+<p>status</p>
+<ul>
+<li>Shows the current status of lockdown</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="setnick-command">Setnick Command</h3>
+<ul>
+<li>/setnick <code>&lt;user&gt;</code> <code>[nickname]</code><ul>
+<li>Changes the nickname of the specified user<ul>
+<li><code>&lt;user&gt;</code> The user to change the nickname of</li>
+<li><code>[nickname]</code> The nickname that the current nickname should be changed to (run without this option to clear the existing nickname)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="slowmode-command">Slowmode Command</h3>
+<ul>
+<li>/slowmode <code>[channel]</code> <code>[hours]</code> <code>[minutes]</code> <code>[seconds]</code><ul>
+<li>Changes the slowmode of a channel, maximum of 1 message per 6 hours (Run without any time related option to disable slowmode)<ul>
+<li><code>[channel]</code> - The channel to change the slowmode of a channel. Uses the current channel if this option is not specified</li>
+<li><code>[hours]</code> - The time in hours to set the slowmode rate to</li>
+<li><code>[minutes]</code> - The time in minutes to set the slowmode rate to</li>
+<li><code>[seconds]</code> - The time in seconds to set the slowmode rate to</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="warn-command">Warn Command</h3>
+<ul>
+<li>/warn <ul>
+<li>add <code>&lt;user&gt;</code> <code>&lt;reason&gt;</code><ul>
+<li>Adds a warning to a user<ul>
+<li><code>&lt;user&gt;</code> - The user to add the warning to</li>
+<li><code>&lt;reason&gt;</code> - The reason for the warning</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>remove <code>&lt;warning id&gt;</code><ul>
+<li>Removes a warning from a user by its warning id (This can be found via the /warn list <code>&lt;user&gt;</code> command)<ul>
+<li><code>&lt;warning id&gt;</code> The id of the warning to remove</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>list <code>&lt;user&gt;</code><ul>
+<li>Lists the warnings of the specified user<ul>
+<li><code>&lt;user&gt;</code> - The user whose warning you want to list</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>clear <code>&lt;user&gt;</code><ul>
+<li>Clears warning for the specified user<ul>
+<li><code>&lt;user&gt;</code> The user whose warning you want to clear</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="settings-commands">Settings Commands</h2>
+<h3 id="settings">Settings</h3>
+<ul>
+<li>/settings<ul>
+<li>guild<ul>
+<li>modrole <code>&lt;role&gt;</code><ul>
+<li>Changes the guild's modrole<ul>
+<li><code>&lt;role&gt;</code> The role you want to change it to</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>adminrole <code>&lt;role&gt;</code><ul>
+<li>Changes the guild's adminrole<ul>
+<li><code>&lt;role&gt;</code> The role you want to change it to</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>pingprotection<ul>
+<li>enable<ul>
+<li>Enables ping protection</li>
+</ul>
+</li>
+<li>disable<ul>
+<li>Disables ping protection</li>
+</ul>
+</li>
+<li>threshold<ul>
+<li>The threshold of illegal pings before Titan should perform the specified action</li>
+</ul>
+</li>
+<li>add <code>&lt;role&gt;</code><ul>
+<li>Adds a role to the ping protection<ul>
+<li><code>&lt;role&gt;</code> - The role you want to be ping protected</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>remove <code>&lt;role&gt;</code><ul>
+<li>Removes a role to the ping protection<ul>
+<li><code>&lt;role&gt;</code> - The role you want to remove from the ping protection</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>list<ul>
+<li>Lists the roles that are currently protected from pings</li>
+</ul>
+</li>
+<li>action <code>&lt;action&gt;</code><ul>
+<li>Changes the action Titan will take when someone surpasses the illegal ping threshold<ul>
+<li><code>&lt;action&gt;</code> - The action Titan will take. You can choose from: warn, kick or ban</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>resetpings <code>&lt;user&gt;</code><ul>
+<li>Resets the illegal pings of a user<ul>
+<li><code>&lt;user&gt;</code> - The user whose illegal pings you want to reset</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>welcome/leave<ul>
+<li>enable<ul>
+<li>Enables welcome / leave messages</li>
+</ul>
+</li>
+<li>disable<ul>
+<li>Disables welcome / leave messages</li>
+</ul>
+</li>
+<li>channel <code>&lt;channel&gt;</code><ul>
+<li>The channel to send the welcome / leave messages to<ul>
+<li><code>&lt;channel&gt;</code> - The channel to send the welcome / leave messages to</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>message <code>&lt;message&gt;</code><ul>
+<li>The message to send when someone joins / leaves<ul>
+<li><code>&lt;message&gt;</code> - The message to send</li>
+</ul>
+</li>
+<li>Placeholders that can be used:<ul>
+<li><code>%user%</code> - A mention of the user </li>
+<li><code>%username%</code> - The username of the user</li>
+<li><code>%username_with_discriminator%</code> - The username of the user with a discriminator</li>
+<li><code>%discriminator%</code> - The discriminator of the user</li>
+<li><code>%guild_name%</code> - The name of the guild</li>
+<li>End the message with <code>-showavatar</code>, to show add the users' avatar to the join message</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>role <code>&lt;role&gt;</code><ul>
+<li>The role to give to users when they join (only works for <code>/settings welcome</code>)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="utility-commands">Utility Commands</h2>
+<h3 id="announce-command">Announce Command</h3>
+<ul>
+<li>/announce <code>&lt;channel&gt;</code> <code>[title]</code> <code>[content]</code> <code>[colour]</code> <code>[thumbnail]</code> <code>[footer]</code><ul>
+<li>Sends an announcement into a channel of your choice<ul>
+<li><code>&lt;channel&gt;</code> - The channel to send the announcement for</li>
+<li><code>[title]</code> - The title of the announcement</li>
+<li><code>[content]</code> - The content of the announcement</li>
+<li><code>[colour]</code> - The colour of the announcement</li>
+<li><code>[thumbnail]</code> - The thumbnail URL of the footer</li>
+<li><code>[footer]</code> - The footer the announcement</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="github-command">GitHub Command</h3>
+<ul>
+<li>/github<ul>
+<li>repo <code>&lt;repo&gt;</code><ul>
+<li>Gets information about a GitHub repository<ul>
+<li><code>&lt;repo&gt;</code> - The repo to get information about </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>user <code>&lt;user&gt;</code><ul>
+<li>Gets information about a GitHub user<ul>
+<li><code>&lt;user&gt;</code> - The user to get information about </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>org <code>&lt;org&gt;</code><ul>
+<li>Gets information about a GitHub organisation<ul>
+<li><code>&lt;org&gt;</code> The organisation to get information about </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="guild-info-command">Guild Info Command</h3>
+<ul>
+<li>/guildinfo<ul>
+<li>Sends information about the current guild</li>
+</ul>
+</li>
+</ul>
+<h3 id="help-command">Help Command</h3>
+<ul>
+<li>/help <code>[command]</code><ul>
+<li>If ran without an option it will show information about the help command. If an option is provided it will show
+  information about the specified command<ul>
+<li><code>[command]</code> - The command to query</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="invite-command">Invite Command</h3>
+<ul>
+<li>/invite<ul>
+<li>Provides a link that can be used to invite Titan to your server </li>
+</ul>
+</li>
+</ul>
+<h3 id="ping-command">Ping Command</h3>
+<ul>
+<li>/ping<ul>
+<li>Gets the bots current gateway ping</li>
+</ul>
+</li>
+</ul>
+<h3 id="stats-command">Stats Command</h3>
+<ul>
+<li>/stats<ul>
+<li>Gets stats about the bot</li>
+</ul>
+</li>
+</ul>
+<h3 id="tag-command">Tag Command</h3>
+<ul>
+<li>/tag <code>&lt;subcommand&gt;</code><ul>
+<li>embed<ul>
+<li>create <code>&lt;trigger&gt;</code> <code>&lt;title&gt;</code> <code>[content]</code> <code>[content]</code> <code>[colour]</code> <code>[thumbnail]</code><ul>
+<li>Creates a tag with the specified arguments<ul>
+<li><code>&lt;trigger&gt;</code> - The trigger of the tag to create</li>
+<li><code>&lt;title&gt;</code> - The title of the tag</li>
+<li><code>[content]</code> - The content of the tag</li>
+<li><code>[colour]</code> - The colour of the tag</li>
+<li><code>[thumbnail]</code> - The thumbnail URL of the footer</li>
+<li><code>[footer]</code> - The footer the tag</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>edit <code>&lt;trigger&gt;</code> <code>[title]</code> <code>[content]</code> <code>[content]</code> <code>[colour]</code> <code>[thumbnail]</code><ul>
+<li>Edits a tag with the specified arguments<ul>
+<li><code>&lt;trigger&gt;</code> - The trigger of the tag to edit</li>
+<li><code>[title]</code> - The new title of the tag</li>
+<li><code>[content]</code> - The new content of the tag</li>
+<li><code>[colour]</code> - The new colour of the tag</li>
+<li><code>[thumbnail]</code> - The new thumbnail URL of the footer</li>
+<li><code>[footer]</code> - The new footer of the tag</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>text<ul>
+<li>create <code>&lt;trigger&gt;</code> <code>&lt;text&gt;</code><ul>
+<li>Creates a tag with the specified arguments<ul>
+<li><code>&lt;trigger&gt;</code> - The trigger of the tag</li>
+<li><code>&lt;text&gt;</code> - The text response of the tag</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>edit <code>&lt;trigger&gt;</code> <code>&lt;text&gt;</code><ul>
+<li>Edits a specific tag<ul>
+<li><code>&lt;trigger&gt;</code> - The trigger of the tag to edit</li>
+<li><code>&lt;text&gt;</code> - The new text response of the tag</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>get <code>&lt;trigger&gt;</code><ul>
+<li>The tag to get</li>
+<li><code>&lt;trigger&gt;</code> - The trigger of the tag to get</li>
+</ul>
+</li>
+<li>remove <code>&lt;trigger&gt;</code><ul>
+<li>Removes a tag by its trigger</li>
+</ul>
+</li>
+<li>clear<ul>
+<li>Clears <strong>all</strong> of the guild's tags (This action is irreversible!) </li>
+</ul>
+</li>
+<li>list<ul>
+<li>Lists all tags in the guild</li>
+</ul>
+</li>
+<li>setrole<ul>
+<li>Sets the role that manages tags </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="user-info-command">User Info Command</h3>
+<ul>
+<li>/userinfo <code>[user]</code><ul>
+<li>Sends information about yourself of a specified user<ul>
+<li><code>[user]</code> - The user you want to find information about</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="wiki-command">Wiki Command</h3>
+<ul>
+<li>/wiki<ul>
+<li>Sends a link to Titan's documentation (here!)</li>
+</ul>
+</li>
+</ul>
+<hr />
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../roles/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Roles" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Roles
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+      <a href="https://discord.gg/4ueXW4fwrR" target="_blank" rel="noopener" title="Titan&#39;s Support Server" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485.065 485.065 0 0 0 404.081 32.03a1.816 1.816 0 0 0-1.923.91 337.461 337.461 0 0 0-14.9 30.6 447.848 447.848 0 0 0-134.426 0 309.541 309.541 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.689 483.689 0 0 0-119.688 37.107 1.712 1.712 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.016 2.016 0 0 0 .765 1.375 487.666 487.666 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348.2 348.2 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321.173 321.173 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251.047 251.047 0 0 0 9.109-7.137 1.819 1.819 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.812 1.812 0 0 1 1.924.233 234.533 234.533 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.407 301.407 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391.055 391.055 0 0 0 30.014 48.815 1.864 1.864 0 0 0 2.063.7A486.048 486.048 0 0 0 610.7 405.729a1.882 1.882 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541zM222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241zm195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.e99e714c.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.bc35569b.min.js"></script>
+      
+    
+  </body>
+</html>
