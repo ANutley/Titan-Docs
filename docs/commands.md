@@ -2,6 +2,8 @@
 
 `<>` are required arguments, whereas `[]` are optional arguments
 
+---
+
 ## Fun Commands
 
 ### Avatar Command
@@ -82,6 +84,8 @@
         * Clears warning for the specified user
         * <user\> The user whose warning you want to clear
 
+---
+
 ## Settings Commands
 
 ### Settings
@@ -135,6 +139,7 @@
         * role <role\>
             * The role to give to users when they join (only works for `/settings welcome`)
     
+---
 
 ## Utility Commands
 
@@ -172,6 +177,10 @@
     * If ran without an option it will show information about the help command. If an option is provided it will show
       information about the specified command
         * [command] - The command to query
+
+### Invite Command
+* /invite
+    * Provides a link that can be used to invite Titan to your server 
 
 ### Ping Command
 
@@ -235,3 +244,5 @@
 
 * /wiki
     * Sends a link to Titan's documentation (here!)
+
+---

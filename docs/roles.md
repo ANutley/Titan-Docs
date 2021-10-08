@@ -2,6 +2,8 @@
 
 These roles are all set to the guild's highest role when Titan is first invited.
 
+---
+
 ##Admin Role
 
 The Admin Role has access to **all** commands (apart from the /settings guild adminrole command, which is limited to the server owner)
@@ -16,6 +18,8 @@ They can:
 
 This goes without saying, but only give this role to someone you trust
 
+---
+
 ##Moderator Role
 
 The Moderator Role can access all of Titan's commands (apart from /settings and /lockdown).
@@ -28,6 +32,8 @@ They can:
 * Change the slowmode of a channel
 * Manage warns for users
 * Manage tags
+
+---
 
 ##Tag Manager Role
 
