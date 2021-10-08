@@ -7,35 +7,35 @@
 ### Avatar Command
 
 * /avatar [user]
-* Finds the avatar of a user
-    * [user] - The user you want to find the avatar of
+    * Finds the avatar of a user
+        * [user] - The user you want to find the avatar of
 
 ### Coin Command
 
 * /coin
-* Flips a coin
+    * Flips a coin
 
 ### Dice Command
 
 * /dice
-* Rolls a dice
+    * Rolls a dice
 
 ## Moderation Commands
 
 ### Ban Command
 
 * /ban <user\> <reason\> [messages]
-* Bans a user
-    * <user\> - The user you want to ban
-    * <reason\> - The reason for banning the user
-    * [messages] - The amount of days of messages to delete (Max 7)
+    * Bans a user
+        * <user\> - The user you want to ban
+        * <reason\> - The reason for banning the user
+        * [messages] - The amount of days of messages to delete (Max 7)
 
 ### Kick Command
 
 * /kick <user\> <reason\>
-* Kicks a user
-    * <user\> - The user you want to kick
-    * <reason\> - The reason for kicking the user
+    * Kicks a user
+        * <user\> - The user you want to kick
+        * <reason\> - The reason for kicking the user
 
 ### Lockdown Command
 
@@ -52,20 +52,18 @@
 ### Setnick Command
 
 * /setnick <user\> [nickname]
-* Changes the nickname of the specified user
-    * <user\> The user to change the nickname of
-    * [nickname] The nickname that the current nickname should be changed to (run without this option to clear the
-      existing nickname)
+    * Changes the nickname of the specified user
+        * <user\> The user to change the nickname of
+        * [nickname] The nickname that the current nickname should be changed to (run without this option to clear the existing nickname)
 
 ### Slowmode Command
 
 * /slowmode [channel] [hours] [minutes] [seconds]
-* Changes the slowmode of a channel (Run without any time related option to disable slowmode)
-    * [channel] - The channel to change the slowmode of a channel. Uses the current channel if this option is not
-      specified
-    * [hours] - The time in hours to set the slowmode rate to
-    * [minutes] - The time in minutes to set the slowmode rate to
-    * [seconds] - The time in seconds to set the slowmode rate to
+    * Changes the slowmode of a channel, maximum of 1 message per 6 hours (Run without any time related option to disable slowmode)
+        * [channel] - The channel to change the slowmode of a channel. Uses the current channel if this option is not specified
+        * [hours] - The time in hours to set the slowmode rate to
+        * [minutes] - The time in minutes to set the slowmode rate to
+        * [seconds] - The time in seconds to set the slowmode rate to
 
 ### Warn Command
 
@@ -79,10 +77,10 @@
         * <warning id\> The id of the warning to remove
     * list <user\>
         * Lists the warnings of the specified user
-        * The user whose warning you want to list
+        * <user\> - The user whose warning you want to list
     * clear <user\>
         * Clears warning for the specified user
-        * The user whose warning you want to clear
+        * <user\> The user whose warning you want to clear
 
 ## Settings Commands
 
@@ -105,18 +103,18 @@
             * The threshold of illegal pings before Titan should perform the specified action
         * add <role\>
             * Adds a role to the ping protection
-            * <role\> - The role you want to be ping protected
+                * <role\> - The role you want to be ping protected
         * remove <role\>
             * Removes a role to the ping protection
-            * <role\> - The role you want to remove from the ping protection
+                * <role\> - The role you want to remove from the ping protection
         * list
             * Lists the roles that are currently protected from pings
         * action <action\>
             * Changes the action Titan will take when someone surpasses the illegal ping threshold
-            * <action\> - The action Titan will take. You can choose from: warn, kick or ban
+                * <action\> - The action Titan will take. You can choose from: warn, kick or ban
         * resetpings <user\>
             * Resets the illegal pings of a user
-            * <user\> - The user whose illegal pings you want to reset
+                * <user\> - The user whose illegal pings you want to reset
     * welcome/leave
         * enable
             * Enables welcome / leave messages
@@ -124,10 +122,10 @@
             * Disables welcome / leave messages
         * channel <channel\>
             * The channel to send the welcome / leave messages to
-            * <channel\> - The channel to send the welcome / leave messages to
+                * <channel\> - The channel to send the welcome / leave messages to
         * message <message\>
             * The message to send when someone joins / leaves
-            * <message\> - The message to send
+                * <message\> - The message to send
             * Placeholders that can be used:
                 * %username% - The username of the user
                 * %username_with_discriminator% - The username of the user with a discriminator
@@ -150,6 +148,18 @@
         * [colour] - The colour of the announcement
         * [thumbnail] - The thumbnail URL of the footer
         * [footer] - The footer the announcement
+
+### GitHub Command
+* /github
+    * repo <repo\>
+        * Gets information about a GitHub repository
+            * <repo\> - The repo to get information about 
+    * user <user\>
+        * Gets information about a GitHub user
+            * <user\> - The user to get information about 
+    * org <org\>
+        * Gets information about a GitHub organisation
+            * <org\> The organisation to get information about 
 
 ### Guild Info Command
 
